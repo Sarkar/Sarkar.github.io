@@ -1,0 +1,75 @@
+#search-box {
+  margin: 1em 1em 3em;
+  width: calc(100% - 2em);
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#facet-list,
+#container{
+  max-width: 150px;
+  width: 100%;
+  float: left;
+  padding: 0 1em;
+  margin: 0;
+  list-style: none;
+}
+
+#facet-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+}
+#facet-list li input {
+  margin-right: 6px;
+}
+
+#container {
+  max-width: 500px;
+}
+#container li {
+  padding: 8px 0;
+}
+
+#container em {
+  background: yellow;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    width: 1000px;
+    border: 0px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#header-wrapper {
+	background-color: blue;
+}
+
+#content-wrapper {
+	width: 1000px;
+	height: 750px;
+	background-color: white;
+}
+
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 0px;
+}
+
+#second {
+    border: 0px;
+    width: 500px;
+	height: 500px;
+    float: left; /* add this */
+}
+
+body {
+    background: url(resources/graphics/background.png) top left repeat;
+    background-repeat: repeat;
+}

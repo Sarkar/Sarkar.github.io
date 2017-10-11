@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Restaurant Locator - by Algolia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+     <div id="wrapper">
+         <div id="header-wrapper">
+         <input type="text" autocomplete="off" id="search-box"/>
+        </div>
+        <div id="content-wrapper">
+            <div id="first">
+                <ul id=facet-cuisine></ul>
+            </div>
+            <div id="second">
+                <ul id=container></ul>
+            </div>
+        </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch-helper@2.22.0/dist/algoliasearch.helper.min.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
